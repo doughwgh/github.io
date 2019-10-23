@@ -36,7 +36,7 @@ function InitializeIt() {
   var x = 0;
   //while (x < 15000) {
 
-  var strapi = "https://jservice.io/api/categories/?count=100&offset=" + x.toString();
+  var strapi = "http://jservice.io/api/categories/?count=100&offset=" + x.toString();
   //var str2 = "&offset=" + x.toString();
   //var str3 = str1.concat(offsetstr);
   document.getElementById("demo2").innerHTML = strapi;
